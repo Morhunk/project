@@ -26,13 +26,15 @@ button {
 
 .btn {
     padding: 16px 36px;
-    font: 700 18px/22px Inter, sans-serif;;
+    font: 700 18px/22px Inter, sans-serif;
+    ;
 }
 
 .container {
     width: 1440px;
     margin: 0 auto;
 }
+
 .section__title {
     width: 594px;
     color: #19191C;
@@ -40,17 +42,20 @@ button {
     font-size: 58px;
     line-height: 70px;
 }
+
 /* header start */
 .header {
     display: flex;
     padding: 36px 0 0;
     justify-content: space-between;
 }
+
 .header__box {
-display: flex;
-align-items: center;
-gap: 68px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
 }
+
 .nav__list {
     display: flex;
     gap: 48px;
@@ -59,14 +64,17 @@ gap: 68px;
     font-weight: 600;
 
 }
+
 .link {
     color: #19191C;
 }
+
 .btn-box {
-display: flex;
-gap: 48px;
-align-items: center;
+    display: flex;
+    gap: 48px;
+    align-items: center;
 }
+
 .logo {
     font-weight: 800;
     font-size: 24px;
@@ -76,12 +84,14 @@ align-items: center;
     gap: 14px;
     color: #19191C;
 }
+
 .header__link {
     color: #19191C;
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
 }
+
 .header__btn {
     background: #19191C;
     color: #EFEFF2;
@@ -90,23 +100,33 @@ align-items: center;
     line-height: 22px;
 
 }
+
 /* header finish */
 /* banner start */
 .banner {
-display: flex;   
-justify-content: space-between; 
-padding-top: 166px;
-padding-bottom: 195px;
-background-image: url("../business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients\ 1\ \(1\).png");
-background-repeat: no-repeat;
-background-position: 134% 100%;
+    padding-top: 166px;
+    background-image: url("../img/Ellipse\ 21.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
 }
+
+.banner__content-wrap {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/business-finance.png"),
+        url("../img/Rectangle\ 107.png");
+    background-repeat: no-repeat;
+    background-position: 134% 100%, 100% 100%;
+    padding-bottom: 194px;
+}
+
 .banner__holder {
     width: 648px;
     background-image: url("../img/Ellipse\ 20.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .month {
     font-weight: 700;
     font-size: 18px;
@@ -116,42 +136,51 @@ background-position: 134% 100%;
     padding-bottom: 8px;
     margin-bottom: 32px;
 }
+
 .title__label {
     margin-bottom: 2px;
 }
 
 .title-banner {
-margin-bottom: 48px;
+    margin-bottom: 48px;
 }
+
 .description {
     margin-bottom: 50px;
 }
+
 .banner__btn {
     background-color: #504DEE;
     color: #FBFBFC;
     margin-bottom: 110px;
 }
+
 .banner__description {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     color: #19191C;
 }
+
 .banner__sale {
     font-weight: 700;
     font-size: 58px;
     line-height: 70px;
     margin-bottom: 8px;
 }
+
 .banner__time {
     font-weight: 700;
     font-size: 18px;
-    line-height:22px; 
+    line-height: 22px;
 }
+
 .banner__list {
     position: relative;
     flex-grow: 1;
+    background-repeat: no-repeat;
 }
+
 .banner__item {
     position: absolute;
     border: 2px solid #19191C;
@@ -160,64 +189,79 @@ margin-bottom: 48px;
     font-size: 18px;
     line-height: 22px;
 }
+
 .banner__invision {
     top: 44px;
     right: 0;
 }
+
 .banner__protopie {
     top: -40px;
     right: 244px;
 }
+
 .banner__miro {
-top: 44px;
-left: 134px;
+    top: 44px;
+    left: 134px;
 }
+
 .banner__photoshop {
     top: 246px;
     left: 114px;
 }
+
 .banner__figma {
     bottom: 184px;
     left: 0;
 }
+
 .banner__illustrator {
     bottom: 0;
     left: 14px;
 }
+
 /* banner finish */
 /* design start */
 .design {
     padding-top: 168px;
 }
+
 .design__info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 168px;
 }
+
 .design__info-description {
     width: 588px;
 }
+
 .title-design {
     margin-bottom: 28px;
 }
+
 .description__text {
     color: #6D6D77;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
+
 .salary {
     width: 354px;
 }
+
 .vacancies {
     width: 245px;
 }
+
 .learn__money-number {
     color: #19191C;
     font-weight: 700;
     font-size: 58px;
     line-height: 70px;
 }
+
 .learn__money-data {
     color: #19191C;
     font-weight: 400;
@@ -228,20 +272,24 @@ line-height: 28px;
     width: 254px;
     margin-bottom: 18px;
 }
+
 .learn__money-text {
     color: #6D6D77;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
+
 .design__cards {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
+
 .design__cards-item {
     padding: 68px 42px;
 }
+
 .card__title {
     color: #19191C;
     font-weight: 700;
@@ -250,34 +298,42 @@ line-height: 28px;
     padding-bottom: 28px;
     border-bottom: 4px solid #19191C;
 }
+
 .card__text {
     color: #19191C;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
+
 .green-card {
     background-color: #DEEFE4;
 }
+
 .yellow-card {
     background-color: #F3F3D7;
 }
+
 .pink-card {
     background-color: #EFDEEE;
 }
+
 /* design finish */
 /* --discover section start -- */
 .discover {
     padding-top: 170px;
     padding-bottom: 168px;
 }
+
 .title-discover {
     margin-bottom: 100px;
 }
+
 .card-wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 .discover__card {
     display: flex;
     flex-direction: column;
@@ -287,6 +343,7 @@ line-height: 28px;
     height: 732px;
     max-width: 466px;
 }
+
 .discover-card__title {
     color: #19191C;
     font-weight: 700;
@@ -294,12 +351,15 @@ line-height: 28px;
     line-height: 40px;
     margin-bottom: 47px;
 }
+
 .discover ul {
     list-style: square;
 }
+
 .discover ul .card__text {
     margin-bottom: 22px;
 }
+
 .card__price {
     color: #6D6D77;
     font-weight: 700;
@@ -307,6 +367,7 @@ line-height: 28px;
     line-height: 26px;
     margin-bottom: 4px;
 }
+
 .card__price-lg {
     color: #19191C;
     font-weight: 700;
@@ -314,13 +375,16 @@ line-height: 28px;
     line-height: 70px;
     margin-bottom: 18px;
 }
+
 .card_btn {
     background-color: #19191C;
     color: #FBFBFC;
 }
+
 .discover__card.violet {
     background-color: #504DEE;
 }
+
 .discover__card.violet .discover-card__title,
 .discover__card.violet ul .card__text,
 .discover__card.violet .card__price,
@@ -332,6 +396,7 @@ line-height: 28px;
     background-color: #FBFBFC;
     color: #504DEE;
 }
+
 /* --discover section end-- */
 /* -- footer start-- */
 .footer {
@@ -339,15 +404,18 @@ line-height: 28px;
     padding-top: 68px;
     padding-bottom: 62px;
 }
+
 .footer__wrap {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
+
 .footer__contacts {
     display: flex;
     flex-direction: column;
 }
+
 .footer__logo {
     display: flex;
     align-items: center;
@@ -357,9 +425,11 @@ line-height: 28px;
     font-size: 18px;
     line-height: 22px;
 }
+
 .footer__logo img {
     margin-right: 12px;
 }
+
 .footer__mail {
     margin-bottom: 28px;
     font-weight: 600;
@@ -367,12 +437,14 @@ line-height: 28px;
     line-height: 28px;
     color: #FBFBFC;
 }
+
 .footer__phone {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
     color: #FBFBFC;
 }
+
 .sitemap__title {
     font-weight: 600;
     font-size: 18px;
@@ -380,17 +452,20 @@ line-height: 28px;
     color: #FBFBFC;
     margin-bottom: 28px;
 }
+
 .sitemap__list {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 12px;
 }
+
 .sitemap__list li a {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     color: #FBFBFC;
 }
+
 .copyright {
     display: flex;
     color: #6D6D77;
@@ -400,6 +475,7 @@ line-height: 28px;
     align-items: center;
     justify-content: center;
 }
+
 .copyright a {
     color: #6D6D77;
     font-weight: 400;
@@ -407,4 +483,5 @@ line-height: 28px;
     line-height: 28px;
     margin-right: 28px;
 }
+
 /* -- footer finish-- */
