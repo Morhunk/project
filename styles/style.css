@@ -321,18 +321,13 @@ line-height: 28px;
 .discover__card.violet {
     background-color: #504DEE;
 }
-.discover__card.violet .discover-card__title {
-    color: #FBFBFC;
-}
-.discover__card.violet ul .card__text {
-    color: #FBFBFC;
-}
-.discover__card.violet .card__price {
-    color: #FBFBFC;
-}
+.discover__card.violet .discover-card__title,
+.discover__card.violet ul .card__text,
+.discover__card.violet .card__price,
 .discover__card.violet .card__price-lg {
     color: #FBFBFC;
 }
+
 .discover__card.violet .card_btn {
     background-color: #FBFBFC;
     color: #504DEE;
