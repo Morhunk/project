@@ -13,12 +13,34 @@
 
 <body>
     <header class="container header">
-        <div class="header__box">
+        <div class="header__box-desctop-mobile">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav__list">
+                    <li><a class="mobile-link" href="#">Courses</a></li>
+                    <li><a class="mobile-link" href="#">Teachers</a></li>
+                    <li><a class="mobile-link" href="#">Blog</a></li>
+                </ul>
+
+                <div class="btn-box">
+                    <a class="header__link" href="#">
+                        En
+                    </a>
+                    <a class="header__link" href="">Sign In</a>
+                    <a class="header__btn btn" href="#">Trial free</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header__box header__box-desctop">
             <a class="logo" href="index.html">
                 <img src="img/logo.svg" alt="logo">
                 UpDate
             </a>
-            <nav class="nav">
+            <nav class="nav desctop-menu">
                 <ul class="nav__list">
                     <li>
                         <a class="link" href="#">Courses</a>
@@ -44,64 +66,66 @@
         <section class="banner">
             <div class="container">
                 <div class="banner__content-wrap">
-            <div class="banner__holder">
-                <h6 class="month">
-                    6 months
-                </h6>
-                <p class="banner__description title__label">
-                    profession:
-                </p>
-                <h1 class="section__title title-banner">
-                    UI/UX designer
-                </h1>
-                <p class="banner__description description">
-                    You will learn how to create a brand identity on the web and for printing. Learn how to work in
-                    Illustrator, Photoshop, InDesign and Figma.
-                    Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the
-                    studio or freelance.
-                </p>
-                <button class="btn banner__btn">
-                    Started
-                </button>
+                    <div class="banner__holder">
+                        <h6 class="month">
+                            6 months
+                        </h6>
+                        <p class="banner__description title__label">
+                            profession:
+                        </p>
+                        <h1 class="section__title title-banner">
+                            UI/UX designer
+                        </h1>
+                        <p class="banner__description description">
+                            You will learn how to create a brand identity on the web and for printing. Learn how to work
+                            in
+                            Illustrator, Photoshop, InDesign and Figma.
+                            Add posters, logos, merch design and other strong projects to your portfolio. Start a career
+                            in the
+                            studio or freelance.
+                        </p>
+                        <button class="btn banner__btn">
+                            Started
+                        </button>
 
-                <p class="banner__sale">
-                    25%
-                </p>
-                <p>
-                    <time class="banner__time">
-                        17 Days 17:44:16
-                    </time>
-                </p>
+                        <p class="banner__sale">
+                            25%
+                        </p>
+                        <p>
+                            <time class="banner__time">
+                                <span>17 Days</span> <span>17:44:16</span>
+                            </time>
+                        </p>
+                    </div>
+
+                    <ul class="banner__list">
+                        <li class="banner__invision banner__item">
+                            InVision
+                        </li>
+                        <li class="banner__protopie banner__item">
+                            ProtoPie
+                        </li>
+                        <li class="banner__miro banner__item">
+                            Miro
+                        </li>
+                        <li class="banner__photoshop banner__item">
+                            Photoshop
+                        </li>
+                        <li class="banner__figma banner__item">
+                            Figma
+                        </li>
+                        <li class="banner__illustrator banner__item">
+                            Illustrator
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-
-            <ul class="banner__list">
-                <li class="banner__invision banner__item">
-                    InVision
-                </li>
-                <li class="banner__protopie banner__item">
-                    ProtoPie
-                </li>
-                <li class="banner__miro banner__item">
-                    Miro
-                </li>
-                <li class="banner__photoshop banner__item">
-                    Photoshop
-                </li>
-                <li class="banner__figma banner__item">
-                    Figma
-                </li>
-                <li class="banner__illustrator banner__item">
-                    Illustrator
-                </li>
-
-            </ul>
-        </div>
-        </div>
         </section>
 
         <section class="design container">
             <div class="design__info">
-                <div class="design__info-description">
+                <div class="design__info-description design__info-col">
                     <h2 class="section__title title-design">
                         Profession UI/UX designer
                     </h2>
@@ -115,34 +139,36 @@
 
                 </div>
 
-                <div class="design__info-data salary">
-                    <div class="learn__money-item">
-                        <p class="learn__money-number">
-                            5 000 $
-                        </p>
-                        <p class="learn__money-data">
-                            Salary
-                        </p>
-                        <p class="learn__money-text">
-                            Nam libero tempore, cum soluta nobis est
-                        </p>
+                <div class="design__info-data-wrap design__info-col">
+                    <div class="design__info-data">
+                        <div class="learn__money-item">
+                            <p class="learn__money-number">
+                                5 000 $
+                            </p>
+                            <p class="learn__money-data">
+                                Salary
+                            </p>
+                            <p class="learn__money-text">
+                                Nam libero tempore, cum soluta nobis est
+                            </p>
 
-                    </div>
-                </div>
-
-                <div class="design__info-data vacanies">
-                    <div class="learn__money-item">
-                        <p class="learn__money-number">
-                            4 225
-                        </p>
-                        <p class="learn__money-data">
-                            Vacancies
-                        </p>
-                        <p class="learn__money-text">
-                            Vero eos et accusamus
-                        </p>
+                        </div>
                     </div>
 
+                    <div class="design__info-data">
+                        <div class="learn__money-item">
+                            <p class="learn__money-number">
+                                4 225
+                            </p>
+                            <p class="learn__money-data">
+                                Vacancies
+                            </p>
+                            <p class="learn__money-text">
+                                Vero eos et accusamus
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -173,7 +199,7 @@
 
         <section class="discover container">
             <h2 class="section__title title-discover">
-                Discover Our Discover Our Prices
+                Discover Our Prices
             </h2>
             <div class="card-wrapper">
                 <article class="discover__card card">
@@ -403,6 +429,34 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burgerMenu = document.querySelector('.burger-menu');
+            const mobileNav = document.querySelector('.mobile-nav');
+            const navLinks = document.querySelectorAll('.mobile-link');
+
+            burgerMenu.addEventListener('click', () => {
+                burgerMenu.classList.toggle('active');
+                mobileNav.classList.toggle('active');
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    burgerMenu.classList.remove('active');
+                    mobileNav.classList.remove('active');
+                });
+            });
+
+            mobileNav.addEventListener('click', (e) => {
+                if (e.target === mobileNav) {
+                    burgerMenu.classList.remove('active');
+                    mobileNav.classList.remove('active');
+                }
+            });
+        });
+
+    </script>
 </body>
 
 </html>
